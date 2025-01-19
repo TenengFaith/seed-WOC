@@ -41,6 +41,10 @@ def update_list():
 
 
 #           FOURTH FUNCTION
+#view list
 def read_list():
-    for index,item in enumerate(todo_list):
-        print(f"{index}. {item}")
+    if len(todo_list)==0:
+        print("list is empty")
+    else:    
+        for index,item in enumerate(todo_list):
+            print(f"{index}. {item}")
