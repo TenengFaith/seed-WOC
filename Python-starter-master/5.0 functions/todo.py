@@ -47,4 +47,4 @@ def read_list():
         print("list is empty")
     else:    
         for index,item in enumerate(todo_list):
-            print(f"{index}. {item}")
+            print(f"{index+1}. {item}")
