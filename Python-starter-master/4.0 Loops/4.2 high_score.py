@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 student_score=input("Enter the scores of the students: ").split()
+=======
+student_score=input().split("Enter the scores of the students:")
+>>>>>>> refs/remotes/origin/main
 for i in range (0, len(student_score)):
     student_score[i]=int(student_score[i])
 highest_score=0;

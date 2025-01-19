@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # range_start=int(input("You want to start from: "))
 
 # rang_end=int(input("You want to end at: "));
@@ -14,3 +15,11 @@ for i in range(1,101):
 
     else:
         print(i)
+=======
+range_start=int(input("You want to start from: "))
+
+rang_end=int(input("You want to end at: "));
+
+
+# RUNNING OUR FOR LOOP HERE:
+>>>>>>> refs/remotes/origin/main
