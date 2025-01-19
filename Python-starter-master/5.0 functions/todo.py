@@ -48,3 +48,29 @@ def read_list():
     else:    
         for index,item in enumerate(todo_list):
             print(f"{index+1}. {item}")
+
+
+
+
+
+#                           WORKING PROGRAM!!!!
+while True:
+    print(" 🔥🔥🔥🔥MY TODO LIST APP🔥🔥🔥🔥 ")
+    print("1. add task to list")
+    print("2. remove task from list")
+    print("3 update item in list")
+    print("4. view list")
+    print("5. quit")
+    choice=input("enter the number of what you want to do")
+    if choice=="1":
+        add_task()
+    elif choice=="2":
+        delete_task()
+    elif choice=="3":
+        update_list()
+    elif choice=="4":
+        read_list()
+    elif choice=="5":
+        break
+    else:
+        print("stupid, try again. You do not have sense!😡")
