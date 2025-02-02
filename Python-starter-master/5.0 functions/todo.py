@@ -22,7 +22,6 @@ def delete_task():
         todo_list.remove(item_index) # or del todo_list[item_index]
         read_list()
 
-
 #           THIRD FUNCTION
 #updating list: changing item
 def update_list():
@@ -41,6 +40,7 @@ def update_list():
 
 
 #           FOURTH FUNCTION
+
 #view list
 def read_list():
     if len(todo_list)==0:
